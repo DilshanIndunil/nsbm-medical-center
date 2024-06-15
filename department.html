@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NSBM Medical Center</title>
+    <link rel ="stylesheet" href="style.css">
+
+    <!-- import  -->
+    <link rel="stylesheet" href="css/icons/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d41ce11e17.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    
+    <section class = "sub-header">
+        <nav>
+            <h1>
+                <div class="nav-logo">
+                    <i class="fa-solid fa-heart-pulse"></i> 
+                    Department
+            </h1>
+            <div class = "nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="department.html">Department</a></li> 
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1 class="sub-header-topic">Department</h1>
+    </section>
+<br>
+<br>
+<br>
+<section class="facilities">
+    <h1 class="heading">Our <span>Doctors</span></h1>
+    <p>Need professional help?Our support staff will answer your questions visit us now or make an appointment!</p>
+
+    <div class="row">
+        <div class="facilities-col">
+            <img src="images/doctor11.jpg">
+            <h3>Dr. Wijesinghe</h3>
+            <p>Experienced doctor working at NSBM Green University Medical Center</p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/doctor11.jpg">
+            <h3>Dr. Dias</h3>
+            <p>NSBM Green University is a doctor with excellent experience providing excellent service in the universitya as well as in a goverment hospital.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/dr.prasanna.jpg">
+            <h3>Dr. Prasanna</h3>
+            <p>NSBM and lecturing on human resource management and personality development.(Department of Management Faculty of Business</p>
+        </div>
+    </div>
+
+
+</section>
+
+<section class="campus">
+    <h1 class="heading">Our <span>Facilities</span></h1>
+    <p>We are committed to providing all our facilities for the welfare of the university students.</p>
+
+    <div class="row">  
+        <div class="campus-col">
+            <img src="images/photo-1604881991664-593b31b88488.jpeg" >
+            <div class="layer">
+                <h3>Counselling</h3>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="images/medicine-doctor-touching-electronic-medical-record-tablet-dna-digital-healthcare-network-connection-hologram-modern-virtual-154742526.jpg" >
+            <div class="layer">
+                <h3>Mediacal Service</h3>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="images/denata.png" >
+            <div class="layer">
+                <h3>Dental Service</h3>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<!-- ------Footer------ -->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>We are always trying  to protect the health  of our university students. thus,we  have been providing our service continously  for 
+        6 years by winning the trust of students. </p>
+        <br>
+    <div class="icons">
+        <i class="fa-brands fa-facebook-f"></i> 
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-brands fa-twitter"></i>
+    </div>
+    <p >© NSBM Green University Medical Center : All Rights Reserved.</p>
+    <p >Designed By <a href="Group Members/index.html"> Web Group 12</a></p>
+        
+</section>
+
+
+
+
+<!-- Javascript for Toggle Menu -->
+
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>

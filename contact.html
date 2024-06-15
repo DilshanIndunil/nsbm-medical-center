@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel ="stylesheet" href="style.css">
+
+    <!-- import  -->
+    <link rel="stylesheet" href="css/icons/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d41ce11e17.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <section class = "sub-header">
+        <nav>
+            <h1>
+                <div class="nav-logo">
+                    <i class="fa-solid fa-heart-pulse"></i> 
+                    NSBM Medical center
+            </h1>
+            <div class = "nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="department.html">Department</a></li> 
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1 class="sub-header-topic">Contact Us</h1>
+    </section>
+
+<!-- --------------Contact Us-------------- -->
+ 
+<section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31691.031705106798!2d79.98870830682154!3d6.845091633394626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae2518e99e2ee8d%3A0xc3eebfdbc86273ee!2sHomagama!5e0!3m2!1sen!2slk!4v1671650213935!5m2!1sen!2slk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    
+</section>
+<selection class="contact-us">
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <i class="fa fa-home"></i>
+                <span>
+                    <h5>Thalagala Road,</h5>
+                    <p>Pitipana, Homagama.</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-phone"></i>
+                <span>
+                    <h5>+94 11 544 5000</h5>
+                    <p>Monday to Sunday 9.00 AM - 17.00 PM</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-envelope-o"></i>
+                <span>
+                    <h5>https://www.nsbm.ac.lk/</h5>
+                    <p>Email Us Your Query</p>
+                </span>
+            </div>
+     </div>
+     <div class="contact-col">
+        <form action="form handler.php"  method="post">
+            <input type="text" name="name" placeholder="Enter your name"required>
+            <input type="email" name="email" placeholder="Enter email address"required>
+            <input type="text" name="subject" placeholder="Enter your subject"required>
+            <textarea rows="8" name="message" placeholder="Message"required></textarea>
+            <button type="submit" class="hero-btn red-btn">Send Message</button>
+        </form>
+
+     </div>
+     
+    </div>
+</selection>
+
+
+
+<!-- ------Footer------ -->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>We are always trying  to protect the health  of our university students. thus,we  have been providing our service continously  for 
+        6 years by winning the trust of students. </p>
+        <br>
+    <div class="icons">
+        <i class="fa-brands fa-facebook-f"></i> 
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-brands fa-twitter"></i>
+    </div>
+    <p >© NSBM Green University Medical Center : All Rights Reserved.</p>
+    <p >Designed By <a href="Group Members/index.html"> Web Group 12</a></p>
+        
+</section>
+
+
+
+
+<!-- Javascript for Toggle Menu -->
+
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>

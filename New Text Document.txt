@@ -1,0 +1,54 @@
++94 115 445 000
+
+NSBM Green University Medical Center
+
+NSBM Medical Center
+
+inquiries@nsbm.ac.lk
+
+Pitipana, Thalagala Rd, Homagama.
+
+NSBM Green University Medical Center : 
+
+https://nlearn.nsbm.ac.lk/mod/choicegroup/view.php?id=36180">Web Group 12
+
+#D6FFD6 light green
+
+#045C24 dark green
+
+#3bb54a green
+
+#cc0002 red
+
+https://www.youtube.com/watch?v=WBsxntNfHh4&list=PLqPNcKlR5yU_hevWWXQ2wmlyCfvoQwqST&ab_channel=FreeWebsiteCode
+
+icons
+<i class="fa-solid fa-xmark"></i> - close
+
+<i class="fa-solid fa-bars"></i> - menu
+
+<i class="fa-brands fa-facebook-f"></i> - facebok
+<i class="fa-brands fa-square-facebook"></i>
+<i class="fa-brands fa-facebook"></i>
+
+<i class="fa-brands fa-instagram"></i> - insta
+<i class="fa-brands fa-square-instagram"></i>
+
+<i class="fa-brands fa-linkedin"></i> - linkedin
+
+<i class="fa-brands fa-twitter"></i> - twitter
+<i class="fa-brands fa-square-twitter"></i>
+
+<i class="fa-solid fa-truck-medical"></i>  - medical
+<i class="fa-solid fa-notes-medical"></i>
+<i class="fa-solid fa-house-medical"></i>
+<i class="fa-regular fa-kit-medical"></i>
+<i class="fa-solid fa-house-medical"></i>
+<i class="fa-solid fa-note-medical"></i>
+<i class="fa-solid fa-heart-pulse"></i>
+<i class="fa-solid fa-heart"></i>
+<i class="fa-solid fa-wave-pulse"></i>
+
+
+
+

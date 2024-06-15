@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Medical Center</title>
+    <link rel ="stylesheet" href="style.css">
+
+    <!-- import  -->
+    <link rel="stylesheet" href="css/icons/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d41ce11e17.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <section class = "sub-header">
+        <nav>
+            <h1>
+                <div class="nav-logo">
+                    <i class="fa-solid fa-heart-pulse"></i> 
+                    NSBM Medical center
+            </h1>
+            <div class = "nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="department.html">Department</a></li> 
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1 class="sub-header-topic">About Us</h1>
+    </section>
+
+<!-- ------About Us Content------ -->
+
+<section class="about-us">
+
+    <div class="row">
+        <div class="about-col">
+            <h1>We Are The Best University Medical Center</h1>
+            <p>Patient experience, patient safety, and nursing quality are just a 
+                few of the international benchmarks used to rate a reputable 
+                medical facility. We were able to demonstrate in our medical 
+                center that we had met all of the standards for the students.
+                <br><br>
+                As you can see, excellent medical facilities share more than just 
+                strict criteria and quantifiable outcomes. In all they do, they 
+                prioritize their patients. The rigors required to create a practice 
+                of innovation and quality are approached professionally and with a 
+                strong sense of compassion and understanding. These factors add up to a 
+                medical center being the most highly regarded in the area. 
+                <br><br>
+                Therefore, we can defend the fact that our medical center is entirely furnished with these items.
+            </p>
+            <a href="" class="hero-btn red-btn">Explore Now</a>
+        </div>
+        <div class="about-col">
+            <img src="images/Untitled-Catalog04501.jpg" alt="">
+        </div>
+    </div>
+
+</section>
+
+
+
+
+<!-- ------Footer------ -->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>We are always trying  to protect the health  of our university students. thus,we  have been providing our service continously  for 
+        6 years by winning the trust of students. </p>
+        <br>
+    <div class="icons">
+        <i class="fa-brands fa-facebook-f"></i> 
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-brands fa-twitter"></i>
+    </div>
+    <p >© NSBM Green University Medical Center : All Rights Reserved.</p>
+    <p >Designed By <a href="Group Members/index.html"> Web Group 12</a></p>
+        
+</section>
+
+
+
+
+<!-- Javascript for Toggle Menu -->
+
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>
